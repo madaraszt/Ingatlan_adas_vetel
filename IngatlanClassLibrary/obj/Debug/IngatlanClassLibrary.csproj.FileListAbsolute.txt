@@ -1,0 +1,5 @@
+c:\Users\Tibi\documents\visual studio 2015\Projects\Ingatlan\IngatlanClassLibrary\bin\Debug\IngatlanClassLibrary.dll
+c:\Users\Tibi\documents\visual studio 2015\Projects\Ingatlan\IngatlanClassLibrary\bin\Debug\IngatlanClassLibrary.pdb
+c:\Users\Tibi\documents\visual studio 2015\Projects\Ingatlan\IngatlanClassLibrary\obj\Debug\IngatlanClassLibrary.csprojResolveAssemblyReference.cache
+c:\Users\Tibi\documents\visual studio 2015\Projects\Ingatlan\IngatlanClassLibrary\obj\Debug\IngatlanClassLibrary.dll
+c:\Users\Tibi\documents\visual studio 2015\Projects\Ingatlan\IngatlanClassLibrary\obj\Debug\IngatlanClassLibrary.pdb

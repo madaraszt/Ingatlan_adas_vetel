@@ -1,0 +1,72 @@
+﻿<Window x:Class="Ingatlan.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ingatlan"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="604.25" Width="722">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="179*"/>
+            <ColumnDefinition Width="179*"/>
+            <ColumnDefinition Width="179*"/>
+            <ColumnDefinition Width="179*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="Header" Content="Ingatlan szerződés" HorizontalAlignment="Left" Margin="17,10,0,0" VerticalAlignment="Top" Height="26" Width="108"/>
+        <Label x:Name="eladoVezeteknevLabel" Content="Vezetéknév:" HorizontalAlignment="Left" Margin="24,67,0,0" VerticalAlignment="Top" Height="26" Width="72"/>
+        <Label x:Name="eladoVeresztnevLabel" Content="Keresztnév:" HorizontalAlignment="Left" Margin="24,93,0,0" VerticalAlignment="Top" Height="26" Width="70"/>
+        <Label x:Name="eladoSzulHelyLabel" Content="Születési hely:" HorizontalAlignment="Left" Margin="24,119,0,0" VerticalAlignment="Top" Height="26" Width="83"/>
+        <Label x:Name="eladoSzulIdoLabel" Content="Születési Idő:" HorizontalAlignment="Left" Margin="24,145,0,0" VerticalAlignment="Top" Height="26" Width="79"/>
+        <Label x:Name="eladoAnyjaVezNevLabel" Content="Anyja Vezetékneve:" HorizontalAlignment="Left" Margin="24,171,0,0" VerticalAlignment="Top" Height="26" Width="111"/>
+        <Label x:Name="eladoAnyjaKerNevLabel" Content="Anyja Keresztneve:" HorizontalAlignment="Left" Margin="24,197,0,0" VerticalAlignment="Top" Height="26" Width="108"/>
+        <Label x:Name="eladoSzigSzamLabel" Content="Személy Igazolvány szám:" HorizontalAlignment="Left" Margin="24,223,0,0" VerticalAlignment="Top" Height="26" Width="145"/>
+        <Label x:Name="eladoAdoSzamLabel" Content="Adó szám:" HorizontalAlignment="Left" Margin="24,249,0,0" VerticalAlignment="Top" Height="26" Width="65"/>
+        <TextBox x:Name="eladoVezeteknevTextBox" HorizontalAlignment="Left" Height="23" Margin="0,71,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="eladoKeresztnevTextBox" HorizontalAlignment="Left" Height="23" Margin="0,97,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="eladoSzulHelyTextBox" HorizontalAlignment="Left" Height="23" Margin="0,123,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="eladoSzulIdoTextBox" HorizontalAlignment="Left" Height="23" Margin="0,149,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="eladoAnyjaVezNevTextBox" HorizontalAlignment="Left" Height="23" Margin="0,175,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="eladoAnyjaKerNevTextBox" HorizontalAlignment="Left" Height="23" Margin="0,201,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="eladoSzigSzamTextBox" HorizontalAlignment="Left" Height="23" Margin="0,227,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="eladoAdoSzamTextBox" HorizontalAlignment="Left" Height="23" Margin="0,253,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <GroupBox x:Name="EladoGroupBox" Header="Eladó személyes adatai" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Height="254" Width="337" Grid.ColumnSpan="2"/>
+        <Label x:Name="vevoVezeteknevLabel_Copy" Content="Vezetéknév:" HorizontalAlignment="Left" Margin="24,67,0,0" VerticalAlignment="Top" Height="26" Width="72" Grid.Column="2"/>
+        <Label x:Name="vevoVeresztnevLabel_Copy" Content="Keresztnév:" HorizontalAlignment="Left" Margin="24,93,0,0" VerticalAlignment="Top" Height="26" Width="70" Grid.Column="2"/>
+        <Label x:Name="vevoSzulHelyLabel_Copy" Content="Születési hely:" HorizontalAlignment="Left" Margin="24,119,0,0" VerticalAlignment="Top" Height="26" Width="83" Grid.Column="2"/>
+        <Label x:Name="vevoSzulIdoLabel_Copy" Content="Születési Idő:" HorizontalAlignment="Left" Margin="24,145,0,0" VerticalAlignment="Top" Height="26" Width="79" Grid.Column="2"/>
+        <Label x:Name="vevoAnyjaVezNevLabel_Copy" Content="Anyja Vezetékneve:" HorizontalAlignment="Left" Margin="24,171,0,0" VerticalAlignment="Top" Height="26" Width="111" Grid.Column="2"/>
+        <Label x:Name="vevoAnyjaKerNevLabel_Copy" Content="Anyja Keresztneve:" HorizontalAlignment="Left" Margin="24,197,0,0" VerticalAlignment="Top" Height="26" Width="108" Grid.Column="2"/>
+        <Label x:Name="vevoSzigSzamLabel_Copy" Content="Személy Igazolvány szám:" HorizontalAlignment="Left" Margin="24,223,0,0" VerticalAlignment="Top" Height="26" Width="145" Grid.Column="2"/>
+        <Label x:Name="vevoAdoSzamLabel_Copy" Content="Adó szám:" HorizontalAlignment="Left" Margin="24,249,0,0" VerticalAlignment="Top" Height="26" Width="65" Grid.Column="2"/>
+        <TextBox x:Name="vevoVezeteknevTextBox_Copy" HorizontalAlignment="Left" Height="23" Margin="0,71,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="3"/>
+        <TextBox x:Name="vevoKeresztnevTextBox_Copy" HorizontalAlignment="Left" Height="23" Margin="0,97,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="3"/>
+        <TextBox x:Name="vevoSzulHelyTextBox_Copy" HorizontalAlignment="Left" Height="23" Margin="0,123,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="3"/>
+        <TextBox x:Name="vevoSzulIdoTextBox_Copy" HorizontalAlignment="Left" Height="23" Margin="0,149,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="3"/>
+        <TextBox x:Name="vevoAnyjaVezNevTextBox_Copy" HorizontalAlignment="Left" Height="23" Margin="0,175,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="3"/>
+        <TextBox x:Name="vevoAnyjaKerNevTextBox_Copy" HorizontalAlignment="Left" Height="23" Margin="0,201,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="3"/>
+        <TextBox x:Name="vevoSzigSzamTextBox_Copy" HorizontalAlignment="Left" Height="23" Margin="0,227,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="3"/>
+        <TextBox x:Name="vevoAdoSzamTextBox_Copy" HorizontalAlignment="Left" Height="23" Margin="0,253,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="3"/>
+        <GroupBox x:Name="vevoGroupBox" Header="Vevő személyes adatai" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Height="254" Width="337" Grid.ColumnSpan="2" Grid.Column="2"/>
+        <Label x:Name="hrszSzamLabel" Content="HRSZ szám:" HorizontalAlignment="Left" Margin="24,326,0,0" VerticalAlignment="Top" Height="26" Width="72"/>
+        <Label x:Name="telepulesLabel" Content="Település:" HorizontalAlignment="Left" Margin="24,352,0,0" VerticalAlignment="Top" Height="26" Width="70"/>
+        <Label x:Name="iranyitoszamLabel" Content="Irányítószám:" HorizontalAlignment="Left" Margin="24,378,0,0" VerticalAlignment="Top" Height="26" Width="83"/>
+        <Label x:Name="kozteruletLabel" Content="Közterület:" HorizontalAlignment="Left" Margin="24,404,0,0" VerticalAlignment="Top" Height="26" Width="79"/>
+        <Label x:Name="hazszamLabel" Content="Házszám:" HorizontalAlignment="Left" Margin="24,430,0,0" VerticalAlignment="Top" Height="26" Width="111"/>
+        <Label x:Name="epuletLabel" Content="Épület:" HorizontalAlignment="Left" Margin="24,456,0,0" VerticalAlignment="Top" Height="26" Width="108"/>
+        <Label x:Name="emeletLabel" Content="Emelet:" HorizontalAlignment="Left" Margin="24,482,0,0" VerticalAlignment="Top" Height="26" Width="145"/>
+        <Label x:Name="ajtoSzamLabel" Content="Ajtó:" HorizontalAlignment="Left" Margin="24,508,0,0" VerticalAlignment="Top" Height="26" Width="65"/>
+        <TextBox x:Name="hrszSzamTextBox" HorizontalAlignment="Left" Height="23" Margin="0,330,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="telepulesTextBox" HorizontalAlignment="Left" Height="23" Margin="0,356,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="iranyitoszamTextBox" HorizontalAlignment="Left" Height="23" Margin="0,382,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="kozteruletTextBox" HorizontalAlignment="Left" Height="23" Margin="0,408,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="hazszamTextBox" HorizontalAlignment="Left" Height="23" Margin="0,434,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="epuletTextBox" HorizontalAlignment="Left" Height="23" Margin="0,460,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="emeletTextBox" HorizontalAlignment="Left" Height="23" Margin="0,486,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="ajtoTextBox" HorizontalAlignment="Left" Height="23" Margin="0,512,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <GroupBox x:Name="ingatlanGroupBox" Header="Ingatlan adatok" HorizontalAlignment="Left" Margin="10,300,0,0" VerticalAlignment="Top" Height="254" Width="337" Grid.ColumnSpan="2"/>
+        <Button x:Name="mentesButton" Content="Mentés" Grid.Column="2" HorizontalAlignment="Left" Margin="93,326,0,0" VerticalAlignment="Top" Width="75" Height="38"/>
+        <Button x:Name="generalasButton" Content="Szerződés generálása" Grid.Column="3" HorizontalAlignment="Left" Margin="0,326,0,0" VerticalAlignment="Top" Width="169" Height="38"/>
+        <Button x:Name="megsemButton" Content="Mégsem" Grid.Column="2" HorizontalAlignment="Left" Margin="10,326,0,0" VerticalAlignment="Top" Width="75" Height="38"/>
+    </Grid>
+</Window>
